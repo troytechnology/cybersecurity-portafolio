@@ -2,61 +2,79 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   background: #0d1117;
-  color: #e6edf3;
+  color: #c9d1d9;
+  line-height: 1.6;
 }
 
 header {
-  text-align: center;
-  padding: 2rem;
   background: #161b22;
+  text-align: center;
+  padding: 2rem 1rem;
 }
 
 header h1 {
   margin: 0;
   color: #58a6ff;
+  font-size: 2.5rem;
 }
 
-nav a {
-  margin: 0 1rem;
-  text-decoration: none;
-  color: #e6edf3;
+header p {
+  margin: 0.5rem 0 0;
+  color: #8b949e;
+  font-size: 1.2rem;
 }
 
 section {
   padding: 2rem;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
 }
 
 h2 {
-  border-bottom: 2px solid #58a6ff;
-  padding-bottom: 0.5rem;
+  color: #58a6ff;
+  border-bottom: 2px solid #30363d;
+  padding-bottom: 0.3rem;
 }
 
-.project {
+.skills-category {
   background: #161b22;
   padding: 1rem;
   margin: 1rem 0;
   border-radius: 8px;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
+.skills-category h3 {
+  margin-top: 0;
+  color: #58a6ff;
 }
 
-form input, form textarea {
-  margin: 0.5rem 0;
-  padding: 0.8rem;
-  border: none;
-  border-radius: 5px;
+.project {
+  background: #21262d;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
 }
 
-form button {
-  background: #58a6ff;
-  color: white;
-  border: none;
-  padding: 0.8rem;
-  border-radius: 5px;
-  cursor: pointer;
+.project h3 {
+  margin-top: 0;
+  color: #f78166;
 }
+
+#contact a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: #161b22;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-top: 1px solid #30363d;
+  color: #8b949e;
+}
+
